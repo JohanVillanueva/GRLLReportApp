@@ -12,7 +12,7 @@ namespace GRLLReportApp
         public MainPage()
         {
             InitializeComponent();
-            string html = "https://app.powerbi.com/view?r=eyJrIjoiNWFlN2Q3ODctOWVmYS00YmJiLTljMTUtMTc5ZDRjM2U1YTM4IiwidCI6IjY1MTgxYWE4LTI5NTgtNDE2ZC05MWEwLTEwODAzMzE4NWUxZiIsImMiOjR9&dynamicDisplayOption=true";
+            string html = "https://app.powerbi.com/view?r=eyJrIjoiZGQzNzk5YjUtNjc4NS00NDQyLWFiOTEtNmZkZDA0Nzk5MzhkIiwidCI6IjY1MTgxYWE4LTI5NTgtNDE2ZC05MWEwLTEwODAzMzE4NWUxZiIsImMiOjR9&dynamicDisplayOption=true";
             Browser.Source = html;
         }
     }
